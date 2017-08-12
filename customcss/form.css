@@ -1,0 +1,53 @@
+@CHARSET "ISO-8859-1";
+
+.heading {
+	width: 50%;
+	margin: auto;
+	font-size: 20px;
+	font-family: arial;
+	color: blue;
+}
+
+input {
+	padding: 1%;
+}
+
+.main {
+	border: 2px solid burlywood;
+	width: 40%;
+	margin: auto;
+	padding: 2%;
+	border-radius: 20px;
+}
+
+.titles {
+	float: left;
+	width: 50%;
+	padding: 3%;
+	padding-left: 10%;
+	font-size: 17px;
+}
+
+.inputs {
+	padding: 3%;
+}
+
+.btn {
+	margin: auto;
+	width: 20%;
+	padding: 3%;
+}
+
+.botn {
+	background-color: lightsteelblue;
+	padding: 6%;
+	border: 2px solid;
+	border-radius: 10px;
+	font-weight: bold;
+	color: black;
+	width: 80%;
+}
+
+body {
+	background-color: #ddd;
+}

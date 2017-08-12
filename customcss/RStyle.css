@@ -1,0 +1,66 @@
+@CHARSET "ISO-8859-1";
+
+html, body {
+  border: 10;
+  padding: 10;
+  margin: 10;
+  height: 100%;
+}
+
+body {
+  background: #99ff99;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+}
+
+form {
+  background: white;
+  width: 40%;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.7);
+  font-family: lato;
+  position: relative;
+  color: #333;
+  border-radius: 10px;
+}
+form header {
+  background: #99ccff;
+  padding: 30px 20px;
+  color: white;
+  font-size: 1.2em;
+  font-weight: 600;
+  border-radius: 10px 10px 0 0;
+}
+form .newstyle {
+  
+  padding: 10px 10px;
+  display: block;
+  font-size: 0.9em;
+  font-weight: 800;
+  border-radius: 15px 15px 0 0;
+}
+form button {
+  position: relative;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  font-family: inherit;
+  color: white;
+  background: #99ccff;
+  outline: none;
+  border: none;
+  padding: 5px 15px;
+  font-size: 1.3em;
+  font-weight: 400;
+  border-radius: 3px;
+  box-shadow: 0px 0px 10px rgba(51, 51, 51, 0.4);
+  cursor: pointer;
+  transition: all 0.15s ease-in-out;
+}
+
+form button:hover {
+  background: #ff5252;
+}
+  
