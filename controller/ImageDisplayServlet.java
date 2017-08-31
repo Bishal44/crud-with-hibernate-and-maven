@@ -21,7 +21,7 @@ import com.bishal.sis.service.UserServiceImpl;
 @WebServlet("/ImageDisplayServlet")
 public class ImageDisplayServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
-	private static final int DEFAULT_BUFFER_SIZE = 10240;
+	private static final int DEFAULT_BUFFER_SIZE = 1111110;
 	StudentService studentService=new StudentServiceImpl();
    UserService userService= new UserServiceImpl(); 
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
@@ -69,8 +69,6 @@ public class ImageDisplayServlet extends HttpServlet {
 	}
 
 	
-	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		
-	}
+	
 
 }
